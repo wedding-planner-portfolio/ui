@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Work+Sans:300,400,600,700&display=swap');
+
 @wp_lightgray: #DAE0E6;
 @wp_mediumgray: rgb(206, 212, 218);
 @wp_darkgray: #60686E;
@@ -12,19 +14,44 @@
 
 h1, h2, h3 {
   color: @wp_darkgray;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  letter-spacing: -0.05em;
 }
 
 body {
    background-color: @wp_lightgray;
+   font-family: 'Work Sans', sans-serif;
+}
+
+.navbar {
+   background-color: @wp_mediumgray;
 }
 
 .navbar a {
    text-decoration: none;
    color: @wp_blue;
+   font-size: 18px;
+   text-transform: uppercase;
 }
 
-.navbar {
-   background-color: @wp_mediumgray;
+.navbar a:hover {
+   background-color: @wp_steelblue;
+}
+
+.btn {
+   font-weight: 600;
+   text-transform: uppercase;
+}
+
+.wp-heading {
+   font-family: Libre Baskerville;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 84px;
+   line-height: 104px;
+   text-align: center;
+   letter-spacing: -0.05em;
 }
 
 .wp-btn-explore {
@@ -32,6 +59,8 @@ body {
    border: 0px;
    color: @wp_white;
    width: 330px;
+   height: 75px;
+   font-size: 24px;
  }
  
  .wp-btn-explore:hover {
@@ -43,6 +72,8 @@ body {
     border: 0px;
     color: @wp_white;
     width: 330px;
+    height: 75px;
+    font-size: 24px;
  }
 
  .wp-btn-login:hover {

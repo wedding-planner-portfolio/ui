@@ -1,3 +1,45 @@
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(https://fonts.gstatic.com/s/librebaskerville/v6/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Libre Baskerville Bold'), local('LibreBaskerville-Bold'), url(https://fonts.gstatic.com/s/librebaskerville/v6/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTgY3KcU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Work Sans Light'), local('WorkSans-Light'), url(https://fonts.gstatic.com/s/worksans/v4/QGYpz_wNahGAdqQ43Rh314L8mNhI.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v4/QGYsz_wNahGAdqQ43Rh_fKDs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url(https://fonts.gstatic.com/s/worksans/v4/QGYpz_wNahGAdqQ43Rh3o4T8mNhI.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Work Sans Bold'), local('WorkSans-Bold'), url(https://fonts.gstatic.com/s/worksans/v4/QGYpz_wNahGAdqQ43Rh3x4X8mNhI.ttf) format('truetype');
+}
 * {
   box-sizing: border-box;
 }
@@ -5,22 +47,46 @@ h1,
 h2,
 h3 {
   color: #60686E;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  letter-spacing: -0.05em;
 }
 body {
   background-color: #DAE0E6;
+  font-family: 'Work Sans', sans-serif;
+}
+.navbar {
+  background-color: #ced4da;
 }
 .navbar a {
   text-decoration: none;
   color: #1D4886;
+  font-size: 18px;
+  text-transform: uppercase;
 }
-.navbar {
-  background-color: #ced4da;
+.navbar a:hover {
+  background-color: #99ABB9;
+}
+.btn {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.wp-heading {
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 104px;
+  text-align: center;
+  letter-spacing: -0.05em;
 }
 .wp-btn-explore {
   background-color: #1D4886;
   border: 0px;
   color: #fff;
   width: 330px;
+  height: 75px;
+  font-size: 24px;
 }
 .wp-btn-explore:hover {
   background-color: #1D4886;
@@ -30,6 +96,8 @@ body {
   border: 0px;
   color: #fff;
   width: 330px;
+  height: 75px;
+  font-size: 24px;
 }
 .wp-btn-login:hover {
   background-color: #99ABB9;
