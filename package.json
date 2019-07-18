@@ -1,0 +1,8 @@
+{
+  "name": "WeddingPlanner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wedding-planner-portfolio/ui.git",
+  "author": "Edgar F <eflores.ef@gmail.com>",
+  "license": "MIT"
+}

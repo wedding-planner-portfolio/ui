@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  color: #60686E;
+}
+body {
+  background-color: #DAE0E6;
+}
+.navbar a {
+  text-decoration: none;
+  color: #1D4886;
+}
+.navbar {
+  background-color: #ced4da;
+}
+.wp-btn-explore {
+  background-color: #1D4886;
+  border: 0px;
+  color: #fff;
+  width: 330px;
+}
+.wp-btn-explore:hover {
+  background-color: #1D4886;
+}
+.wp-btn-login {
+  background-color: #99ABB9;
+  border: 0px;
+  color: #fff;
+  width: 330px;
+}
+.wp-btn-login:hover {
+  background-color: #99ABB9;
+}
