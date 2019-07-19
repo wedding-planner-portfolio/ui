@@ -58,14 +58,22 @@ body {
 .navbar {
   background-color: #ced4da;
 }
-.navbar a {
+.navbar-nav a {
   text-decoration: none;
   color: #1D4886;
   font-size: 18px;
   text-transform: uppercase;
 }
-.navbar a:hover {
+.navbar-nav a:hover {
   background-color: #99ABB9;
+}
+h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+h1 a:hover {
+  text-decoration: none;
+  color: inherit;
 }
 .btn {
   font-weight: 600;
